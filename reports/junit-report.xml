@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="open-cart-login-testing;google-search-for-open-cart-app" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/ProjectCucumber/features/openCart.feature">
+            </property>
+        </properties>
+        <testcase name="When I launch open cart application" classname="open-cart-login-testing;google-search-for-open-cart-app" time="29.85181286">
+        </testcase>
+        <testcase name="And I should see &quot;OpenCart&quot; title" classname="open-cart-login-testing;google-search-for-open-cart-app" time="2.176603277">
+        </testcase>
+        <testcase name="And I should click on login" classname="open-cart-login-testing;google-search-for-open-cart-app" time="10.464274252">
+        </testcase>
+        <testcase name="And I enter email" classname="open-cart-login-testing;google-search-for-open-cart-app" time="8.418106993">
+        </testcase>
+        <testcase name="And I enter password" classname="open-cart-login-testing;google-search-for-open-cart-app" time="0.628177189">
+        </testcase>
+        <testcase name="And I click on login confirm" classname="open-cart-login-testing;google-search-for-open-cart-app" time="6.171276784">
+        </testcase>
+        <testcase name="Then I verify error message" classname="open-cart-login-testing;google-search-for-open-cart-app" time="0.079371945">
+        </testcase>
+    </testsuite>
+</testsuites>

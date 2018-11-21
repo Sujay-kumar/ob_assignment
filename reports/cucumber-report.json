@@ -1,0 +1,126 @@
+[
+  {
+    "description": "  I should be able to go to a website\n  and check its search functionality",
+    "elements": [
+      {
+        "id": "open-cart-login-testing;google-search-for-open-cart-app",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Google search for open cart app",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I launch open cart application",
+            "result": {
+              "status": "passed",
+              "duration": 29851812860
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\step-definitions\\openCart.step.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should see \"OpenCart\" title",
+            "result": {
+              "status": "passed",
+              "duration": 2176603277
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\step-definitions\\openCart.step.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should click on login",
+            "result": {
+              "status": "passed",
+              "duration": 10464274252
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\step-definitions\\openCart.step.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter email",
+            "result": {
+              "status": "passed",
+              "duration": 8418106993
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\step-definitions\\openCart.step.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter password",
+            "result": {
+              "status": "passed",
+              "duration": 628177189
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\step-definitions\\openCart.step.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on login confirm",
+            "result": {
+              "status": "passed",
+              "duration": 6171276784
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\step-definitions\\openCart.step.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify error message",
+            "result": {
+              "status": "passed",
+              "duration": 79371945
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\step-definitions\\openCart.step.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2381251711
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ProjectCucumber\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-cart-login-testing",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Open Cart login Testing",
+    "tags": [],
+    "uri": "C:/Users/ProjectCucumber/features/openCart.feature"
+  }
+]
